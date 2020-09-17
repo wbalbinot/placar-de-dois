@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './components/Header';
+import Score from './components/Score';
+import Footer from './components/Footer';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  < React.StrictMode >
+    <div className="App">
+      <Header />
+      <Score />
+      <Footer />
+    </div>
+  </React.StrictMode >,
   document.getElementById('root')
 );
 

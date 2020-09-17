@@ -1,0 +1,27 @@
+header{
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 1.5vh;
+  grid-template-areas: "bt1 bt1 bt1 bt1 bt1 bt1 bt2 bt2 bt2 bt2 bt2 bt2";
+}
+
+.button {
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 5vw;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 15vh;
+}
+
+.red {
+  background: #D9534F;
+}
+
+.blue {
+  background: #0275D8;
+}
